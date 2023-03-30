@@ -1,6 +1,11 @@
 body{
     background-color: #1e2124;
+    transition: 0.5s;
     margin: 0 auto;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 input{
@@ -153,11 +158,11 @@ section{
 #tc{
     text-align: center;
     margin-top: 10px;
-    font-size: 1rem;
+    font-size: 3.5rem;
 }
 
 .textAc{
-   margin-left: 36%;
+   margin-left: 35%;
    margin-top: 5%;
    position: absolute;
 }

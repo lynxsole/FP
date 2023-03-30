@@ -26,7 +26,7 @@
 
     <section id="page2">
         <div class="textAc">
-            <h2 id="tw">Voici mes compte<br> ou je suis le plus actif...</h2>
+            <h2 id="tc">Voici mes compte<br> ou je suis le plus actif...</h2>
         </div>
         
     </section>
