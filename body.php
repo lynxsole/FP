@@ -31,7 +31,7 @@
         </div>
         <div class="textCard">
             <p id="textCard">
-                c'est juste un text pour tester cette div ;
+                c'est juste un text pour tester cette div;
             </p>
         </div>
     </div>
