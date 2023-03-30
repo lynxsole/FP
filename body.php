@@ -1,6 +1,6 @@
 
 <body>
-    <section>
+    <section id="page1">
         <div class="welcome">
             <h2 class="tw">IMAGINE UN<br> ENDROIT...</h2>
         </div>
