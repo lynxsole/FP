@@ -25,17 +25,6 @@
     </section>
 
     <section id="displayInter">
-        
-    <div class="pictureCard">
-        <div class="pictureCard">
-            <img id="pictureCard" src="assets/img/icon/tik-tok.jpg" alt="">
-        </div>
-        <div class="textCard">
-            <p id="textCard">
-                c'est juste un text pour tester cette div;
-            </p>
-        </div>
-    </div>
     </section>
     <section></section>
     <script src="assets/js/main.js"></script>
