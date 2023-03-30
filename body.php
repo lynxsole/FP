@@ -24,7 +24,7 @@
         </div>
     </section>
 
-    <section id="displayInter">
+    <section id="displayInter page2">
     </section>
     <section></section>
     <script src="assets/js/main.js"></script>
