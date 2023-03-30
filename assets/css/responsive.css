@@ -1,0 +1,26 @@
+@media screen and (max-width: 900px){
+    .btn{
+        display: inline-flex;
+        margin-top: 5%;
+        position: relative;
+        margin-left: 4%;
+    }
+}
+
+
+@media screen and (min-width: 2200px){
+    .btn{
+        display: inline-flex;
+        margin-top: 5%;
+        position: relative;
+        margin-left: 33%;
+    }
+
+    .content, .navText{
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 38%;
+        position: absolute;
+        display: inline-flex;
+    }
+}
