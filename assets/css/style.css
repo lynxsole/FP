@@ -132,28 +132,23 @@ section{
 
 .card{
     width: 250px;
-    height: 500px;
-    margin-top: -250px;
-    margin-left: 20%;
+    height: 400px;
+    margin-top: 350px;
+    margin-left: 44%;
     position: absolute;
     background-color: #36393e;
 }
 
-.pictureCard{
-    width: 200px;
-    height: 150px;
-    background-color: #36393e;
+
+.account{
+    display: inline-flex;
 }
 
 #pc{
     width: 100%;
 }
 
-.textCard{
-    background-color: #1e2124;
-    margin-top: 50px;
-    height: 100%;
-}
+
 
 #tc{
     text-align: center;
@@ -174,7 +169,7 @@ section{
 }
 
 .textc{
-    margin-left: 37%;
+    margin-left: 41%;
     margin-top: 6%;
     position: absolute;
 }

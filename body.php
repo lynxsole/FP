@@ -29,6 +29,30 @@
             <h2 id="tc">Voici mes comptes<br> ou je suis le plus actif...</h2>
         </div>
         
+        <div class="account">
+            <div class="card">
+                <div class="imgContent">
+
+                </div>
+                <div class="textContent">
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgContent">
+
+                </div>
+                <div class="textContent">
+
+                </div>
+            </div>
+        </div>
+        
+
+        
+
+
     </section>
 
     <section id="page3">
