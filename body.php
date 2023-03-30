@@ -30,9 +30,10 @@
         </div>
         
     </section>
+
     <section id="page3">
         <div class="textc">
-            <h2 id="tc">Mes Creations<br>...</h2>
+            <h2 id="tc2">Mes Creations<br>...</h2>
         </div>
 
 

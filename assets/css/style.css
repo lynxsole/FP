@@ -157,7 +157,13 @@ section{
 
 #tc{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
+    font-size: 3.5rem;
+}
+
+#tc2{
+    text-align: center;
+    margin-top: 30px;
     font-size: 3.5rem;
 }
 
@@ -167,5 +173,10 @@ section{
    position: absolute;
 }
 
+.textc{
+    margin-left: 37%;
+    margin-top: 6%;
+    position: absolute;
+}
 
 
