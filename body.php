@@ -25,6 +25,7 @@
     </section>
 
     <section id="displayInter">
+        
     <div class="pictureCard">
         <div class="pictureCard">
             <img id="pictureCard" src="assets/img/icon/tik-tok.jpg" alt="">
