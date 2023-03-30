@@ -26,11 +26,17 @@
 
     <section id="page2">
         <div class="textAc">
-            <h2 id="tc">Voici mes compte<br> ou je suis le plus actif...</h2>
+            <h2 id="tc">Voici mes comptes<br> ou je suis le plus actif...</h2>
         </div>
         
     </section>
-    <section></section>
+    <section id="page3">
+        <div class="textc">
+            <h2 id="tc">Mes Creations<br>...</h2>
+        </div>
+
+
+    </section>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

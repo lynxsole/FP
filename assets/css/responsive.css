@@ -13,7 +13,7 @@
         display: inline-flex;
         margin-top: 5%;
         position: relative;
-        margin-left: 33%;
+        margin-left: 34%;
     }
 
     .content, .navText{
@@ -23,4 +23,17 @@
         position: absolute;
         display: inline-flex;
     }
+
+    .textAc{
+        margin-left: 37%;
+        margin-top: 5%;
+        position: absolute;
+     }
+
+     .textc{
+        margin-left: 41%;
+        margin-top: 4%;
+        position: absolute;
+     }
+     
 }
