@@ -2,10 +2,10 @@
 <body>
     <section id="page1">
         <div class="welcome">
-            <h2 class="tw">IMAGINE UN<br> ENDROIT...</h2>
+            <h2 id="tw">IMAGINE UN<br> ENDROIT...</h2>
         </div>
 
-        <div class="welcomeText" id="tw">
+        <div class="welcomeText" id="">
             <p class="wt">
                 …où tu pourrais faire partie d'un club scolaire,<br>
                 d'un groupe de gamers ou d'une communauté d'art internationale.<br> 
@@ -24,7 +24,11 @@
         </div>
     </section>
 
-    <section id="displayInter page2">
+    <section id="page2">
+        <div class="textAc">
+            <h2 id="tw">Voici mes compte<br> ou je suis le plus actif...</h2>
+        </div>
+        
     </section>
     <section></section>
     <script src="assets/js/main.js"></script>
