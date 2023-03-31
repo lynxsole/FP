@@ -1,7 +1,7 @@
 <body>
     <section id="page1">
         <div class="welcome">
-            <h2 id="tw">IMAGINE UN<br> ENDROIT...</h2>
+            <h2 id="tw">IMAGINE UN<br> ENDROIT...<br></h2>
         </div>
 
         <div class="welcomeText" id="">
