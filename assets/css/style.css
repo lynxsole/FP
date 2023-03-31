@@ -132,25 +132,39 @@ section{
     display: inline-flex;
 }
 
+.account{
+    margin-left: 32%;
+    display: inline-flex;
+}
+
 .card{
-    box-shadow: #1e2124;
-    width: 250px;
-    height: 400px;
+    box-shadow: 20px 20px 20px 20px #1e2124;
+    width: 350px;
+    height: 150px;
     margin-top: 350px;
-    margin-left: 44%;
-    position: absolute;
+    margin-left: 5%;
+    position: relative;
+    background-color: #36393e;
+}
+
+.card:hover{
+    box-shadow: #1e2124;
+    width: 350px;
+    height: 150px;
+    margin-top: 350px;
+    margin-left: 5%;
+    position: relative;
     background-color: #36393e;
 }
 
 .textcard{
     text-align: center;
     margin-top: 6%;
+    z-index: 2;
 }
 
 
-.account{
-    display: inline-flex;
-}
+
 
 #pc{
     width: 100%;

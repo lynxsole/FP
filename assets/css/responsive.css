@@ -46,5 +46,10 @@
         margin-top: 4%;
         position: absolute;
      }
+
+     .account{
+        margin-left: 35%;
+        display: inline-flex;
+    }
      
 }
