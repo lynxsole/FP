@@ -6,19 +6,19 @@
 
         <div class="welcomeText" id="">
             <p class="wt">
-                …où tu pourrais faire partie d'un club scolaire,<br>
-                d'un groupe de gamers ou d'une communauté d'art internationale.<br> 
+                …où tu pourra faire partie d'un Groupe d'editeur,<br>
+                experimenter ou non ou personne ne jugera tes création.<br> 
                 Un endroit où toi et ta bande d'amis pouvez simplement passer du temps ensemble.<br> 
-                Un endroit qui permettrait plus facilement de discuter tous les jours et de se retrouver plus souvent.
+                Un endroit qui permettrait plus facilement de d'apprendre et découvire de nouvelle chose.
             </p>
         </div>
 
         <div class="btn">
             <div class="downloadBtn">
-                <a href="assets/dowload/text.txt" download="test.txt"><input id="downloadBtn" type="button" value="Télécharger pour Windows"></a>
+                <a href="" download="test.txt"><input id="downloadBtn" type="button" value="Télécharge mon pack de plugin"></a>
             </div>
             <div class="Webaccess">
-                <a href=""><input id="Webaccess" type="button" value="Ouvrir Discord dans ton navigateur"></a>
+                <a href="https://discord.gg/5JvmyycwRQ"><input id="Webaccess" type="button" value="Rejoindre mon serveur Discord"></a>
             </div>
         </div>
     </section>
@@ -38,8 +38,8 @@
                         <?php
                         if(array_key_exists('title'.'reseau', $accountElt2) && $accountElt2['enabled'] == false);
                         {
-                            echo $accountElt2['reseau'];
-                            echo $accountElt2['title'];
+                            echo $accountElt['reseau'];
+                            echo $accountElt['title'];
                         }
                         ?>
                         </p>
@@ -55,8 +55,8 @@
                         <?php
                         if(array_key_exists('title'.'reseau', $accountElt) && $accountElt['enabled'] == false);
                         {
-                            echo $accountElt['reseau'];
-                            echo $accountElt['title'];
+                            echo $accountElt2['reseau'];
+                            echo $accountElt2['title'];
                         }
                         ?>
                     </p>
