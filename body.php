@@ -47,7 +47,7 @@
                 </div>
                 <div class="textContent">
                     <p class="textcard">
-                        john
+                        Hello world
                     </p>
                 </div>
             </div>
