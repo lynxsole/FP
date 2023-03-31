@@ -1,4 +1,5 @@
 <?php
+    require('assets/php/fonction.php');
     require('assets/php/newElt.php');
     include('Config.php');
     include('nav.php');
