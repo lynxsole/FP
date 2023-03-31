@@ -32,10 +32,12 @@
         <div class="account">
             <div class="card">
                 <div class="imgContent">
-
+                    
                 </div>
                 <div class="textContent">
-
+                        <p class="textc">
+                            john
+                        </p>
                 </div>
             </div>
 
@@ -44,7 +46,9 @@
 
                 </div>
                 <div class="textContent">
-
+                    <p class="textcard">
+                        john
+                    </p>
                 </div>
             </div>
         </div>
