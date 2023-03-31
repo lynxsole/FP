@@ -71,10 +71,24 @@
     </section>
 
     <section id="page3">
+
+
         <div class="textc">
             <h2 id="tc2">Mes Creations<br>...</h2>
-        </div>
 
+            <div id="errorBox">
+            <div class="CassadreIcon">
+                <img src="assets/img/errorPicture/cassandre.png" alt="" id="cassandre">
+            </div>
+            <div id="eT">
+                <p id="errorText">
+                    <?php
+                        echo $errorText;
+                    ?>
+                </p>
+            </div>
+        </div>
+        </div>
 
     </section>
     <script src="assets/js/main.js"></script>

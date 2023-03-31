@@ -1,6 +1,7 @@
 <?php
     $accountName = [' @lsacedit', ' LSAC/EDIT'];
     $accountReseaux= ['TikTok :', 'Youtube :'];
+    $errorText = 'tkt pas les projets arrive ;)';
     
   
     $accountElt = [

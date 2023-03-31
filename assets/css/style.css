@@ -166,13 +166,12 @@ section{
 
 #tc{
     text-align: center;
-    margin-top: 5px;
     font-size: 3.5rem;
 }
 
 #tc2{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 3.5rem;
 }
 
@@ -183,9 +182,33 @@ section{
 }
 
 .textc{
-    margin-left: 41%;
-    margin-top: 6%;
-    position: absolute;
+    margin-top: 10%;
+    margin-left: 42%;
+    position: relative;
+    display: inline-block;
+}
+
+.CassadreIcon{
+    position: r;
+}
+
+#errorBox{
+    margin-top: 10%;
+    height: 150px;
+    width: 150px;
+    margin-left: 14%;
+    position: relative;  
+}
+
+#cassandre{
+    height: 300px;
+    width: 300px;
+    box-shadow: 20px 20px 20px 20px #1e2124;
+}
+
+#errorText{
+    top: 0;
+    text-align: center;
 }
 
 
