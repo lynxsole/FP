@@ -32,7 +32,7 @@
         <div class="account">
             <div class="card">
                 <div class="imgContent">
-                    
+                    <img src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/11db243f4de2c6b27bfbb14eb727d97f~c5_100x100.jpeg?x-expires=1680444000&x-signature=cMgoizhcEkjRIdWitVf7WrSkzjI%3D" alt="" class="imgContent">
                 </div>
                 <div class="textContent">
                         <p class="textc">
