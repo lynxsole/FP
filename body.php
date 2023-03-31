@@ -63,11 +63,6 @@
                 </div>
             </div>
         </div>
-        
-
-        
-
-
     </section>
 
     <section id="page3">
