@@ -1,5 +1,5 @@
 <?php
-    $accountName = [' lsacedit', ' LynxSole'];
+    $accountName = [' @lsacedit', ' LSAC/EDIT'];
     $accountReseaux= ['TikTok :', 'Youtube :'];
     
   
@@ -16,5 +16,4 @@
         'enabled' => true,
     
     ];
-  
 ?>
