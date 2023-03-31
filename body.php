@@ -71,8 +71,6 @@
     </section>
 
     <section id="page3">
-
-
         <div class="textc">
             <h2 id="tc2">Mes Creations<br>...</h2>
 
