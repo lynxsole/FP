@@ -15,7 +15,7 @@
 
         <div class="btn">
             <div class="downloadBtn">
-                <a href="" download><input id="downloadBtn" type="button" value="Télécharge mon pack de plugin"></a>
+                <a href="assets/download/text.txt" download><input id="downloadBtn" type="button" value="Télécharge mon pack de plugin"></a>
             </div>
             <div class="Webaccess">
                 <a href="https://discord.gg/5JvmyycwRQ"><input id="Webaccess" type="button" value="Rejoindre mon serveur Discord"></a>
