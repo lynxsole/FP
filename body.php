@@ -1,4 +1,3 @@
-
 <body>
     <section id="page1">
         <div class="welcome">
@@ -36,18 +35,30 @@
                 </div>
                 <div class="textContent">
                         <p class="textcard">
-                           Hello World
+                        <?php
+                        if(array_key_exists('title'.'reseau', $accountElt2) && $accountElt2['enabled'] == false);
+                        {
+                            echo $accountElt2['reseau'];
+                            echo $accountElt2['title'];
+                        }
+                        ?>
                         </p>
                 </div>
             </div>
 
             <div class="card">
                 <div class="imgContent">
-                <img src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/11db243f4de2c6b27bfbb14eb727d97f~c5_100x100.jpeg?x-expires=1680444000&x-signature=cMgoizhcEkjRIdWitVf7WrSkzjI%3D" alt="" class="imgContent">
+                <img src="https://yt3.googleusercontent.com/Lt_kl_vXUdvCmiMxuzHUDfxfy_XCtIuQAj6VilHZbCyJD9xqFXQ5WWfoEYPC00wMPf-9_Ki3Zw=s176-c-k-c0x00ffffff-no-rj" alt="" class="imgContent">
                 </div>
                 <div class="textContent">
                     <p class="textcard">
-                        Hello World
+                        <?php
+                        if(array_key_exists('title'.'reseau', $accountElt) && $accountElt['enabled'] == false);
+                        {
+                            echo $accountElt['reseau'];
+                            echo $accountElt['title'];
+                        }
+                        ?>
                     </p>
                 </div>
             </div>
