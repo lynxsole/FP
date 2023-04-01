@@ -86,6 +86,15 @@ section{
     margin-left: 28%;
 }
 
+#contrat{
+    height: 200px;
+    width: 500px;
+    margin-left: 52%;
+    position: absolute;
+    box-shadow: 20px 20px 20px 20px #1e2124;
+    background-color: #1e2124;
+}
+
 #downloadBtn{
     background-color: white;
     text-align: center;
