@@ -39,8 +39,8 @@
             <div class="Webaccess">
                 <a href="https://discord.gg/5JvmyycwRQ"><input id="Webaccess" type="button" value="Rejoindre mon serveur Discord"></a>
             </div>
-            <div style="margin: 0 auto;" id="contrat">
-                <p style="text-align: center;">
+            <div style="display: none; margin: 0 auto;" id="contrat">
+                <p style=" text-align: center;">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
                     Quidem beatae, tempora fuga sed ipsam esse omnis corrupti sit sapiente laudantium nulla iste eveniet ad.<br>
                     Veritatis excepturi eligendi quidem cupiditate sit.<br>
