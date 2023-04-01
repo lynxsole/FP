@@ -34,10 +34,18 @@
 
         <div class="btn">
             <div class="downloadBtn">
-                <a href="assets/download/text.txt" download><input id="downloadBtn" type="button" value="Télécharge mon pack de plugin"></a>
+                <a href="#" ><input onclick="showContrat()" id="downloadBtn" type="button" value="Télécharge mon pack de plugin"></a>
             </div>
             <div class="Webaccess">
                 <a href="https://discord.gg/5JvmyycwRQ"><input id="Webaccess" type="button" value="Rejoindre mon serveur Discord"></a>
+            </div>
+
+            <div style="display:none;" class="contrat">
+                <p style="text-align: center;">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                    Quidem beatae, tempora fuga sed ipsam esse omnis corrupti sit sapiente laudantium nulla iste eveniet ad.<br>
+                    Veritatis excepturi eligendi quidem cupiditate sit.<br>
+                </p>
             </div>
         </div>
     </section>
@@ -106,6 +114,6 @@
     <?php
         include('footer.php');
     ?>
-    <script src="assets/js/main.js"></script>
+        <script src="assets/js/main.js"></script>
 </body>
 </html>
