@@ -3,6 +3,5 @@
     include('Config.php');
     include('nav.php');
     include('body.php');
-    include('card.php');
     include('footer.php');
 ?>
