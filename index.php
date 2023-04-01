@@ -6,6 +6,7 @@
 <head>
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="assets/img/errorPicture/cassandre.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -41,13 +42,12 @@
             </div>
         </div>
         <div style="display: none; margin: 0 auto;" id="contrat"class="B_contrat">
-                <p style=" text-align: center; font-size: 0.9rem;">
+                <p style=" position: relative; text-align: center; font-size: 0.9rem; padding-top: 1.5rem;">
                     Avant de télécharger ce pack je tiens à vous avertir.
                     que le contenu de ce pack contient des logiciels cracker trouver sur le net je me dédoine de tout dommage.
                     matériel et logiciel en cas de problème lors de son installation si vous cochez la case, cela signifie que vous avez lu et approuvé l'accord.
                 </p>
-
-                <input style="width: 100px; height: auto; margin-left: 30%;" id="dlBtn" type="button" value="telecharger" onclick="checkBox()">
+                <input id="bc" style="width: 100px; height: auto; margin-left: 30%;" id="dlBtn" type="button" value="Telecharger" onclick="checkBox()">
                 <input style="width: 100px; height: auto; margin-left 5px; " type="checkbox" id="check" onclick="checkBox()">
                 <p style="display: none; margin-left:1rem; text-align: center; font-size: 1rem; color: red; position: absolute;" id="error">
                     Vous devez cocher la case si vous souhaitez consulter le contenu.

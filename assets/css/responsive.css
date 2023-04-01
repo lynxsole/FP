@@ -1,3 +1,24 @@
+@media screen and (max-width: 410px){
+
+    .content, .navText{
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 2%;
+        position: absolute;
+        display: inline-flex;
+    }
+
+
+    .btn{
+        display: inline-block;
+        margin-top: 5%;
+        position: absolute;
+        margin-left: 3%;
+    }
+
+
+}
+
 @media screen and (max-width: 900px){
 
     .content, .navText{

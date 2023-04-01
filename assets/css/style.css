@@ -70,6 +70,13 @@ section{
 .wt, #pv{
     text-align: center;
 }
+
+#bc{
+    border-style: none;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 20px 20px 20px 20px;
+}
 #tw{
     font-size: 3.5rem;
     text-align: center;
@@ -92,8 +99,8 @@ section{
     margin-top: 20px;
     position: relative;
     transition: 0.5s;
-    box-shadow: 20px 20px 20px 20px #1e2124;
-    background-color: red;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #36393e;
 }
 
 #downloadBtn{

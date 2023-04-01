@@ -1,7 +1,13 @@
+let download;
+
 function showContrat()
 {
     document.getElementById('contrat').style.display = "block";
-    document.getElementsByClassName('body').style.backgroundColor = "#1e2124";
+}
+
+function dl()
+{
+    download = browser.downloads.fileName('../download/text.txt');
 }
 
 function checkBox(bool) {
@@ -9,6 +15,6 @@ function checkBox(bool) {
     {
         document.getElementById('error').style.display = "block";
     }else{
-        
+        dl();
     }
 }
