@@ -39,7 +39,8 @@
             <div class="Webaccess">
                 <a href="https://discord.gg/5JvmyycwRQ"><input id="Webaccess" type="button" value="Rejoindre mon serveur Discord"></a>
             </div>
-            <div style="display: none; margin: 0 auto;" id="contrat">
+        </div>
+        <div style="display: none; margin: 0 auto;" id="contrat">
                 <p style=" text-align: center;">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
                     Quidem beatae, tempora fuga sed ipsam esse omnis corrupti sit sapiente laudantium nulla iste eveniet ad.<br>
@@ -48,11 +49,10 @@
 
                 <input style="width: 100px; height: auto; margin-left: 30%;" id="dlBtn" type="button" value="telecharger" onclick="checkBox()">
                 <input style="width: 100px; height: auto; margin-left -50px: " type="checkbox" name="" id="check" onclick="checkBox()">
-                <p style="display: none; width: 100px; height: auto;margin-left:9rem; text-align: center; font-size:0.8rem; color: red; position: absolute;" id="error">
+                <p style="display: none; width: 100px; height: auto;margin-left:9rem; text-align: start; font-size:0.8rem; color: red; position: absolute;" id="error">
                     tu dois cochez la case si tu veux acceder au contenu
                 </p>
             </div>
-        </div>
     </section>
 
     <section id="page2">
