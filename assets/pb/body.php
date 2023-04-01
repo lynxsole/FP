@@ -1,4 +1,4 @@
-<body>
+<!-- <body>
     <section id="page1">
         <div class="welcome">
             <h2 id="tw">IMAGINE UN<br> ENDROIT...<br></h2>
@@ -86,4 +86,4 @@
     </section>
     <script src="assets/js/main.js"></script>
 </body>
-</html>
+</html> -->
