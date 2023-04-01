@@ -82,17 +82,18 @@ section{
 .btn{
     display: inline-flex;
     margin-top: 5%;
-    position: relative;
+    position: absolute;
     margin-left: 28%;
 }
-
-#contrat{
+.B_contrat{
     height: 250px;
-    width: 500px;
+    width: 400px;
     margin-left: 56%;
-    position: absolute;
+    margin-top: 20px;
+    position: relative;
+    transition: 0.5s;
     box-shadow: 20px 20px 20px 20px #1e2124;
-    background-color: #1e2124;
+    background-color: red;
 }
 
 #downloadBtn{

@@ -1,6 +1,7 @@
 function showContrat()
 {
     document.getElementById('contrat').style.display = "block";
+    document.getElementById('body').style.backgroundColor = "#1e2124";
 }
 
 function checkBox(bool) {
