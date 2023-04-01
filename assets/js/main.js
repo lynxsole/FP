@@ -1,20 +1,14 @@
-let download;
-
 function showContrat()
 {
     document.getElementById('contrat').style.display = "block";
 }
 
-function dl()
-{
-    download = browser.downloads.fileName('../download/text.txt');
-}
-
-function checkBox(bool) {
-    if(document.getElementById('check').checked == false)
+function checkBox() {
+    if(document.getElementById('check').checked == true)
     {
-        document.getElementById('error').style.display = "block";
+       console.log("bip bop");
     }else{
-        dl();
+        console.log("bop bop bop");
+        document.getElementById('error').style.display = "block";
     }
 }
