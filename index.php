@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <title>LS - Hub</title>
 </head>
-<body id="body">
+<body>
 <?php
     include('nav.php');
 ?>
