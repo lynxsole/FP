@@ -79,11 +79,12 @@ section{
 .welcome{
     padding: 0.5rem;
     margin-top: 15rem;
-    text-align: center;
+    text-align: start;
 }
 
 .wt, #pv{
     text-align: center;
+    font-size: 1rem;
 }
 
 #bc{
@@ -200,7 +201,7 @@ section{
 #tc2{
     text-align: center;
     margin-top: 50px;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 
 
