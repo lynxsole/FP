@@ -28,6 +28,7 @@ input{
 
 li, ul, a{
     list-style: none;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -47,24 +48,22 @@ nav{
     box-shadow: #1e2124;
 }
 
-.content, .navText{
-    text-align: center;
+.content{
+    width: 100%;
+}
+
+.navText{
     margin: 0 auto;
-    margin-left: 34%;
-    position: absolute;
+    position: relative;
     display: inline-flex;
 }
 
 .navBtn{
-    margin-left: 5rem;
-}
-
-
-.nvt{
-    margin-left: 5%;
+    padding-left: 5rem;
 }
 
 section{
+    margin: 0;
     width: 100%;
     height: 50rem;
     margin-bottom: 10rem;
@@ -72,7 +71,7 @@ section{
 
 
 .welcome{
-    margin: 0 auto;
+    padding: 0.5rem;
     margin-top: 15rem;
     text-align: center;
 }
@@ -92,20 +91,16 @@ section{
     text-align: center;
 }
 
-.welcomeText{
-    align-self: center;
-}
 
 .btn{
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     margin-top: 5%;
-    position: absolute;
-    margin-left: 28%;
+    
 }
 .B_contrat{
     height: 250px;
-    width: 400px;
-    margin-left: 56%;
+    width: 100%;
     margin-top: 20px;
     position: relative;
     transition: 0.5s;
@@ -114,8 +109,9 @@ section{
 }
 
 #downloadBtn{
+    position: relative;
     background-color: white;
-    text-align: center;
+    padding: 5px 5px 5px 5px;
     font-size: 1.2rem;
     transition: 0.5s;
     font-family: 'Ubuntu', sans-serif;
@@ -123,17 +119,17 @@ section{
 }
 
 #Webaccess{
-    margin-left: 2rem;
+    position: relative;
     background-color: #36393e;
     color: white;
     font-size: 1.2rem;
+    padding-left: 2rem;
     transition: 0.5s;
     font-family: 'Ubuntu', sans-serif;
     border-radius: 25px 25px 25px 25px;
 }
 
 #Webaccess:hover{
-    margin-left: 2rem;
     background-color: #36393e;
     color: white;
     font-size: 1.2rem;
@@ -202,17 +198,11 @@ section{
     font-size: 3.5rem;
 }
 
-.textAc{
-   margin-left: 36%;
-   margin-top: 5%;
-   position: absolute;
-}
+
 
 .textc{
     margin-top: 10%;
-    margin-left: 42%;
     position: relative;
-    display: inline-block;
 }
 
 .CassadreIcon{

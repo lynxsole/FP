@@ -3,6 +3,16 @@ function showContrat()
     document.getElementById('contrat').style.display = "block";
 }
 
+function showPhoneBtn()
+{
+    document.getElementById('phoneNav').style.display = "block";
+}
+
+function hidePhoneBtn()
+{
+    document.getElementById('phoneNav').style.display = "none";
+}
+
 function checkBox() {
     if(document.getElementById('check').checked == true)
     {

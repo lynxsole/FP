@@ -1,111 +1,147 @@
-@media screen and (max-width: 410px){
+    @media screen and (max-width: 750px){
 
-    .content, .navText{
-        text-align: center;
-        margin: 0 auto;
-        margin-left: 2%;
+    .content{
+        width: 100%;
+        display: none;
         position: absolute;
-        display: inline-flex;
+        background-color: #36393e;
+        box-shadow: 0px 0px 10px 10px #0000002a;
     }
 
-
-    .btn{
+    .navText{
+        width: 100%;
+        margin-left: -23%;
         display: inline-block;
+        justify-content: center;
+    }
+
+    input{
+        width: 90%;
+        height: 50px;
+        cursor: pointer;
+        border-style: none;
+        text-align: center;
+    }
+
+    .welcome{
+        padding: 0.5rem;
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .btn{
+        display: block;
+        justify-content: center;
         margin-top: 5%;
-        position: absolute;
-        margin-left: 3%;
+        margin-left: 25px;
+    }
+
+    #downloadBtn{
+        background-color: white;
+        font-size: 1.2rem;
+        transition: 0.5s;
+        font-family: 'Ubuntu', sans-serif;
+        border-radius: 25px 25px 25px 25px;
+    }
+    
+    #Webaccess{
+        margin-top: 5%;
+        background-color: #36393e;
+        color: white;
+        font-size: 1.2rem;
+        transition: 0.5s;
+        font-family: 'Ubuntu', sans-serif;
+        border-radius: 25px 25px 25px 25px;
+    }
+
+    #Webaccess:hover{
+        background-color: #36393e;
+        color: white;
+        font-size: 1.2rem;
+        font-family: 'Ubuntu', sans-serif;
+        border-radius: 25px 25px 25px 25px;
+        transition: 0.5s;
+        box-shadow: 4px 4px 1px 1px rgba(0, 0, 0, 0.50);
+    }
+    
+    #downloadBtn:hover{
+        background-color: white;
+        text-align: center;
+        color: #7289da;
+        font-size: 1.2rem;
+        font-family: 'Ubuntu', sans-serif;
+        border-radius: 25px 25px 25px 25px;
+        transition: 0.5s;
+        box-shadow: 4px 4px 1px 1px rgba(114, 137, 218, 0.50);
     }
 
 
 }
 
-@media screen and (max-width: 900px){
+@media screen and (min-width: 751px){
 
-    .content, .navText{
+
+    #hideBtn{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        display: none;
         text-align: center;
-        margin: 0 auto;
-        margin-left: 16%;
         position: absolute;
-        display: inline-flex;
     }
 
+    input{
+        width: 400;
+        height: 50px;
+        cursor: pointer;
+        border-style: none;
+    }
 
     .btn{
-        display: inline-flex;
+        display: flex;
+        justify-content: center;
         margin-top: 5%;
-        position: relative;
-        margin-left: 3%;
+        margin-left: 0;
     }
 
-
-}
-
-@media screen and (min-width: 2200px){
-    .btn{
-        display: inline-flex;
-        margin-top: 5%;
-        position: relative;
-        margin-left: 34%;
+    #downloadBtn{
+        background-color: white;
+        font-size: 1.2rem;
+        transition: 0.5s;
+        font-family: 'Ubuntu', sans-serif;
+        border-radius: 25px 25px 25px 25px;
+    }
+    
+    #Webaccess{
+        margin-left: 15px;
+        background-color: #36393e;
+        color: white;
+        font-size: 1.2rem;
+        transition: 0.5s;
+        font-family: 'Ubuntu', sans-serif;
+        border-radius: 25px 25px 25px 25px;
     }
 
-    .content, .navText{
+    #Webaccess:hover{
+        background-color: #36393e;
+        color: white;
+        font-size: 1.2rem;
+        font-family: 'Ubuntu', sans-serif;
+        border-radius: 25px 25px 25px 25px;
+        transition: 0.5s;
+        box-shadow: 4px 4px 1px 1px rgba(0, 0, 0, 0.50);
+    }
+    
+    #downloadBtn:hover{
+        background-color: white;
         text-align: center;
-        margin: 0 auto;
-        margin-left: 38%;
-        position: absolute;
-        display: inline-flex;
-    }
-
-    .textAc{
-        margin-left: 38%;
-        margin-top: 5%;
-        position: absolute;
-     }
-
-     .textc{
-        margin-left: 42%;
-        margin-top: 4%;
-        position: absolute;
-     }
-
-     .account{
-        margin-left: 42%;
-        display: inline-flex;
-    }
-
-    #errorBox{
-        margin-top: 300px;
-        height: 150px;
-        width: 150px;
-        margin-left: 30%;
-        position: relative;  
-    }
-
-    .CassadreIcon{
-        position: relative;
-    }
+        color: #7289da;
+        font-size: 1.2rem;
+        font-family: 'Ubuntu', sans-serif;
+        border-radius: 25px 25px 25px 25px;
+        transition: 0.5s;
+        box-shadow: 4px 4px 1px 1px rgba(114, 137, 218, 0.50);
     
-    #errorBox{
-        margin-top: 10%;
-        height: 150px;
-        width: 150px;
-        margin-left: 4%;
-        position: absolute;  
-    }
-    
-    #cassandre{
-        height: 300px;
-        width: 300px;
-    }
-    #eT{
-        margin-left: 5%;
-    }
-    
-    #errorText{
-        z-index: 2;
-        position: relative;
-        text-align: center;
-    }
-    
-     
+    } 
 }
