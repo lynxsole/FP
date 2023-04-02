@@ -4,6 +4,16 @@ body{
     margin: 0 auto;
 }
 
+body::-webkit-scrollbar{
+    width: 12px;
+    background-color: #1e2124   ;
+}
+body::-webkit-scrollbar-thumb{
+    width: 12px;
+    background-color: #282b30;
+    border-radius:  25px 25px 25px 25px;
+}
+
 html{
     scroll-behavior: smooth;
 }
