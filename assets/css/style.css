@@ -16,6 +16,7 @@ body::-webkit-scrollbar-thumb{
 
 body::-webkit-scrollbar-thumb:hover{
     width: 12px;
+    transition: 0.5s;
     background-color: #818181;
     border-radius:  25px 25px 25px 25px;
 }
