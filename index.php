@@ -38,7 +38,7 @@
                 <a href="#" ><input onclick="showContrat()" id="downloadBtn" type="button" value="Télécharge mon pack de plugin"></a>
             </div>
             <div class="Webaccess">
-                <a href="https://discord.gg/5JvmyycwRQ"><input id="Webaccess" type="button" value="Rejoindre mon serveur Discord"></a>
+                <a href="#"><input onclick="count()" id="Webaccess" type="button" value="Rejoindre mon serveur Discord"></a>
             </div>
         </div>
         <div style="display: none; margin: 0 auto;" id="contrat"class="B_contrat">

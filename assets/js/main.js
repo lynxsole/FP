@@ -13,3 +13,8 @@ function checkBox() {
         document.getElementById('error').style.display = "block";
     }
 }
+let countUser = 0;
+function count(int) {
+    document.getElementById('userCounter').innerHTML = ++countUser;
+    console.log(countUser);
+}
