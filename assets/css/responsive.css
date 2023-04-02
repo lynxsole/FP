@@ -3,6 +3,7 @@
     .content{
         width: 100%;
         display: none;
+        transition: 0.5s;
         position: absolute;
         background-color: #36393e;
         box-shadow: 0px 0px 10px 10px #0000002a;
