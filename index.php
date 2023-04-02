@@ -35,13 +35,13 @@
 
         <div class="btn">
             <div class="downloadBtn">
-                <a href="#" ><input onclick="showContrat()" id="downloadBtn" type="button" value="Télécharge mon pack de plugin"></a>
+                <input onclick="showContrat()" id="downloadBtn" type="button" value="Télécharge mon pack de plugin">
             </div>
             <div class="Webaccess">
-                <a href="#"><input onclick="count()" id="Webaccess" type="button" value="Rejoindre mon serveur Discord"></a>
+                <input onclick="count()" id="Webaccess" type="button" value="Rejoindre mon serveur Discord">
             </div>
         </div>
-        <div style="display: none; margin: 0 auto;" id="contrat"class="B_contrat">
+        <div style="display: none; margin: 0 auto;" id="contrat" class="B_contrat">
                 <p style=" position: relative; text-align: center; font-size: 0.9rem; padding: 1.5rem;">
                     Avant de télécharger ce pack je tiens à vous avertir.
                     que le contenu de ce pack contient des logiciels cracker trouver sur le net je me dédoine de tout dommage.
