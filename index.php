@@ -57,7 +57,7 @@
 
     <section id="page2">
         <div class="textc">
-            <h2 id="tc2">Voici mes comptes<br> ou je suis le plus actif...</h2>
+            <h2 id="tc2">Mes Reseaux<br>...</h2>
         </div>
         
         <!-- <div class="account">
