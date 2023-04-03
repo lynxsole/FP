@@ -1,3 +1,5 @@
+
+
 body{
     background-color: #1e2124;
     margin: 0 auto;
@@ -231,6 +233,23 @@ section{
     top: 0;
     text-align: center;
 }
+
+/* page ressource */
+
+.container{
+    display: block;
+    justify-content: center;
+    margin-top: 5rem;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+
+#tag{
+    display: inline-flexk  ;
+}
+
 
 
 
