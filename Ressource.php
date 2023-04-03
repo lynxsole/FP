@@ -39,7 +39,7 @@
 
                 </div>
                 <div id="tag">
-                    <input style="width: 75px; height: 10px;" type="button" value="Daddy">
+                    <input style="width: 75px; height: 1px;" type="button" value="Daddy">
                 </div>
                 <div class="desc">
 
