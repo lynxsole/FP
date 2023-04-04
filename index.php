@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href=" https://fonts.cdnfonts.com/css/zt-grafton " rel="feuille de style">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <title>LS - Hub</title>
@@ -25,7 +26,7 @@
         </div>
 
         <div class="welcomeText" id="">
-            <p class="wt">
+            <p style=" margin: 0;" class="wt">
                 …où tu pourra faire partie d'un Groupe d'editeur,<br>
                 experimenter ou non ou personne ne jugera tes création.<br> 
                 Un endroit où toi et ta bande d'amis pouvez simplement passer du temps ensemble.<br> 

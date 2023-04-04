@@ -28,3 +28,38 @@ function count(int) {
     document.getElementById('userCounter').innerHTML = ++countUser;
     console.log(countUser);
 }
+
+function selectRessourceBtn()
+{
+    if(document.getElementById('AE').checked == true)
+    {
+        console.log('chek !!!')
+        document.getElementById('AE-Box').style.display = "block";
+    }else{
+        document.getElementById('AE-Box').style.display = "none";
+    }
+
+    if(document.getElementById('SVP').checked == true)
+    {
+        document.getElementById('SVP-Box').style.display = "block";
+    }else{
+        document.getElementById('SVP-Box').style.display = "none";
+    }
+
+    if(document.getElementById('Phone').checked == true)
+    {
+        document.getElementById('Phone-Box').style.display = "block";
+    }else{
+        document.getElementById('Phone-Box').style.display = "none";
+    }
+
+    if(document.getElementById('AE').checked == false && document.getElementById('SVP').checked == false && document.getElementById('Phone').checked == false)
+    {
+        document.getElementById('msg').style.display = "block";
+        document.getElementById('erreurIcon').style.display = "block";
+        
+    }else{
+        document.getElementById('msg').style.display = "none";
+        document.getElementById('erreurIcon').style.display = "none";
+    }
+}

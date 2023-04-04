@@ -30,6 +30,12 @@
         text-align: center;
     }
 
+    .wt, #pv{
+        text-align: center;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
     .btn{
         display: block;
         justify-content: center;
@@ -75,6 +81,46 @@
         transition: 0.5s;
         box-shadow: 4px 4px 1px 1px rgba(114, 137, 218, 0.50);
     }
+
+    .container{
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 5rem;
+        height: auto;
+        width: 100%;
+    }
+
+    .SelecRessource{
+        justify-content: center;
+        display: inline-block;
+    }
+    
+    
+
+    .Choise{
+        height: 230px;
+        width: 530px;
+        margin: 0 auto;
+        background-color: blue;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .Choise2{
+        display: none;
+        height: 230px;
+        width: 530px;
+        margin-top: 10px;
+        margin: 0 auto;
+        background-color: blue;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .textChoise{
+        margin-top: 50px;
+    }
+    
+    
+    
 
 }
 
