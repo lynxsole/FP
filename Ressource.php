@@ -47,6 +47,8 @@
                     <p>
                         AE
                     </p>
+
+                    <input onclick="playMusic()" style="width: auto; height: 50px"; type="button" value="musique">
                 </div>
 
                 <div id="SVP-Box" class="card">
@@ -64,6 +66,11 @@
             </div>
 
         </div>
+
+
+        <?php
+            include('music.php');
+        ?>
         
          
         <div style="display: none; margin: 0 auto;" id="contrat" class="B_contrat">
@@ -79,5 +86,6 @@
                 </p>
     </section>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/playList.js"></script>
 </body>
 </html>
