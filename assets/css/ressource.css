@@ -209,8 +209,7 @@ section{
 /* page ressource */
 
 .container{
-    display: inline-block;
-    margin: 0 auto;
+    display: block;
     margin-top: 5rem;
     height: auto;
     width: 100%;
@@ -223,11 +222,8 @@ section{
     background-color: blue;
 }
 
-.checkBoxContent{
-    margin-left: 50rem;
-}
-
 .SelecRessource{
+    margin-top: 5rem;
     justify-content: center;
     position: absolute;
     display: inline-flex;
@@ -250,8 +246,9 @@ section{
 }
 
 .checkBoxContent{
+    position: absolute;
     display: inline-flex;
-    margin: 0 auto;
+    justify-content: center;
 }
 
 .eltCheck{

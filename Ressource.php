@@ -20,10 +20,14 @@
     include('nav.php');
 ?>
 <section>
-        <div style="margin-top: 5rem;" class="welcome">
+        <div style="" class="welcome">
             <h2 id="tw">Les ressources des membres du serveur...</h2>
-            <h2 id="msg" style="display: none;" id="tw">Sa va etre compliquer la...</h2>
-            <img id="erreurIcon cassandre" style="display: none;" src="assets/img/errorPicture/cassandre.png" alt="" srcset="">
+            <div id="erreurIcon cassandre">
+                <h2 id="msg" style="display: none;" id="tw">Sa va etre compliquer la...</h2>
+                <img id="msg" style="display: none;" src="assets/img/errorPicture/cassandre.png" alt="" srcset="">
+            </div>
+            
+           
         </div>
 
         <div class="container">
