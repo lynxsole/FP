@@ -5,7 +5,8 @@
         display: none;
         transition: 0.5s;
         position: absolute;
-        background-color: #36393e;
+        z-index: -2;
+        background-color: #1C2942;
         box-shadow: 0px 0px 10px 10px #0000002a;
     }
 
@@ -119,6 +120,18 @@
         margin-top: 50px;
     }
     
+    .checkBoxContent{
+        margin-left: 5rem;
+        position: absolute;
+        display: inline-flex;
+    }
+
+    .SelecRessource{
+        margin-top: 5rem;
+        margin-left: 2.5rem;
+        position: absolute;
+        display: inline-block;
+    }
     
     
 
@@ -127,7 +140,7 @@
 @media screen and (min-width: 751px){
 
 
-    #hideBtn{
+    #openBtn{
         display: none;
     }
     .content{

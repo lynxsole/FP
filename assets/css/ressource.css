@@ -1,7 +1,7 @@
 
 
 body{
-    background-color: #1e2124;
+    background-color: #5FC2BA;
     margin: 0 auto;
 }
 
@@ -39,13 +39,13 @@ h1, h2, h3 , h4, h5, h6, p{
 }
 
 nav{
-    background-color: #282b30;
+    background-color: #1C2942;
     position: fixed;
     top: 0;
     width: 100%;
     height: 50px;
     z-index: 2;
-    box-shadow: 0px 0px 10px 10px #0000002a;
+    box-shadow: 0px 0px 10px 10px #1C2942;
     box-shadow: #1e2124;
 }
 
@@ -216,15 +216,18 @@ section{
 }
 
 .card{  
+    border-radius: 20px 20px 20px 20px;
     margin-left: 2rem;
     height: 330px;
     width: 230px;
-    background-color: blue;
+    cursor: pointer;
+    background-color: #1C2942;
+    box-shadow: 0px 0px 10px 10px #0000002a;
 }
 
 .SelecRessource{
     margin-top: 5rem;
-    justify-content: center;
+    margin-left: 30rem;
     position: absolute;
     display: inline-flex;
 }
@@ -237,7 +240,6 @@ section{
 
 #tag{
     margin-top: 1rem;
-    margin-left: 0.5rem;
     display: inline-flex;
 }
 
@@ -246,9 +248,9 @@ section{
 }
 
 .checkBoxContent{
+    margin-left: 50rem;
     position: absolute;
     display: inline-flex;
-    justify-content: center;
 }
 
 .eltCheck{
@@ -274,7 +276,8 @@ section{
 }
 
 .titleMusic{
-    
+    text-align: start;
+    font-size: 0.5rem;
 }
 
 .playBtn{

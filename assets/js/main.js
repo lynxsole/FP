@@ -6,11 +6,16 @@ function showContrat()
 function showPhoneBtn()
 {
     document.getElementById('phoneNav').style.display = "block";
+    document.getElementById('closeBtn').style.display = "block";
+    document.getElementById('openBtn').style.display = "none";
 }
 
 function hidePhoneBtn()
 {
     document.getElementById('phoneNav').style.display = "none";
+    document.getElementById('closeBtn').style.display = "none";
+    document.getElementById('openBtn').style.display = "block";
+    
 }
 
 function checkBox() {
@@ -27,6 +32,8 @@ let countUser = 0;
 function count(int) {
     document.getElementById('userCounter').innerHTML = ++countUser;
     console.log(countUser);
+    window.location.href="https://discord.gg/M8ExTugKzS";
+
 }
 
 function selectRessourceBtn()
