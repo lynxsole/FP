@@ -22,6 +22,7 @@ function checkBox() {
     if(document.getElementById('check').checked == true)
     {
        console.log("bip bop");
+       window.location.href="https://mega.nz/folder/fk5SwawR#NhLhbHJBSj17qSKJsm6-kg";
        document.getElementById('error').style.display = "none";
     }else{
         console.log("bop bop bop");
