@@ -1,6 +1,5 @@
 <?php 
     header("Cache-Control:no-cache");
-    require('assets/php/newElt.php');
 ?>
 <!DOCTYPE html>
 <html lang="fr">

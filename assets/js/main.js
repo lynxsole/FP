@@ -22,13 +22,15 @@ function checkBox() {
     if(document.getElementById('check').checked == true)
     {
        console.log("bip bop");
-       window.location.href="https://mega.nz/folder/fk5SwawR#NhLhbHJBSj17qSKJsm6-kg";
        document.getElementById('error').style.display = "none";
+       window.location.href="https://mega.nz/folder/fk5SwawR#NhLhbHJBSj17qSKJsm6-kg";
     }else{
         console.log("bop bop bop");
         document.getElementById('error').style.display = "block";
     }
 }
+
+
 let countUser = 0;
 function count(int) {
     document.getElementById('userCounter').innerHTML = ++countUser;
