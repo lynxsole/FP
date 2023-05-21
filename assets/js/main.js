@@ -43,7 +43,7 @@ function selectRessourceBtn()
 {
     if(document.getElementById('AE').checked == true)
     {
-        console.log('chek !!!')
+        console.log('check !!!');
         document.getElementById('AE-Box').style.display = "block";
     }else{
         document.getElementById('AE-Box').style.display = "none";
