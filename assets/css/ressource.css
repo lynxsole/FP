@@ -287,7 +287,7 @@ section{
     background-color: red;
 }
 
-#SVP-Box, #AE-Box, Phone-Box{
+#SVP-Box, #AE-Box, .Phone-Box{
     transition: 0.5s;
     transition: linear;
     opacity: 1;

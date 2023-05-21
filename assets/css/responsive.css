@@ -1,5 +1,12 @@
     @media screen and (max-width: 750px){
 
+
+    .Hero{
+        padding-top: 1rem;    
+        position: relative;
+    }
+
+
     .content{
         width: 100%;
         display: none;

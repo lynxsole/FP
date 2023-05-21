@@ -54,6 +54,11 @@ nav{
     box-shadow: #1e2124;
 }
 
+
+.Hero{
+    padding-top: 10rem;    
+    position: relative;
+}
 .content{
     width: 100%;
 }

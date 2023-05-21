@@ -21,7 +21,9 @@
     include('nav.php');
 ?>
 <section id="page1">
-        <div style="margin-top: 2rem;" class="welcome">
+
+    <div class="Hero">
+    <div style="margin-top: 2rem;" class="welcome">
             <h2 id="tw">IMAGINE UN<br> ENDROIT...<br></h2>
         </div>
 
@@ -36,7 +38,7 @@
 
         <div class="btn">
             <div class="downloadBtn">
-                <input onclick="showContrat()" id="downloadBtn" type="button" value="Télécharge nos pack">
+                <input onclick="showContrat()" id="downloadBtn" type="button" value="Télécharge notre pack">
             </div>
             <div class="Webaccess">
                 <input onclick="count()" id="Webaccess" type="button" value="Nous Rejoindre">
@@ -54,6 +56,8 @@
                     Vous devez cocher la case si vous souhaitez consulter le contenu.
                 </p>
             </div>
+    </div>
+        
 
             <?php
                 include('music.php');
