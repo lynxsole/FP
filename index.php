@@ -1,6 +1,8 @@
 <?php 
     header("Cache-Control:no-cache");
 ?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>  
@@ -14,7 +16,7 @@
     <link href=" https://fonts.cdnfonts.com/css/zt-grafton " rel="feuille de style">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-    <title>LS - Hub</title>
+    <title>Editor World - Home</title>
 </head>
 <body>
 <?php
