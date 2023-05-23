@@ -31,7 +31,7 @@
         </div>
 
         <div class="container">
-            <div class="checkBoxContent">
+            <div style="position: absolute;" class="checkBoxContent">
                 <div class="eltCheck">
                     <p>AE</p>
                     <input onclick="selectRessourceBtn()" checked id="AE" type="checkbox" name="After-Effect">

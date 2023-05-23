@@ -223,6 +223,7 @@ section{
     cursor: pointer;
     background-color: #1C2942;
     box-shadow: 0px 0px 10px 10px #0000002a;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .SelecRessource{
